@@ -6,7 +6,7 @@
 cd
 git clone https://github.com/IhTiYaR0/mypython
 python /mypython/main.py
-rm -rf /mypython
+rm -rf mypython
 ```
 -----------------------------------------------
 

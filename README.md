@@ -1,10 +1,12 @@
-![Альтернативный текст](https://imgur.com/undefined)
-![Альтернативный текст](https://imgur.com/jGcHqXL)
-![Альтернативный текст](https://imgur.com/ncxYK3g)
-![Альтернативный текст](hhttps://i.imgur.com/mR7669v.png)
+![Альтернативный текст](https://i.imgur.com/0Z11Uek.png)
 
+![Альтернативный текст](https://i.imgur.com/jslC4K4.png)
 
+![Альтернативный текст](https://i.imgur.com/MkINkLT.png)
 
+![Альтернативный текст](https://i.imgur.com/O99xHyh.png)
+
+-----------------------------------------------
 
 # Install ↓
 

@@ -1,4 +1,7 @@
-![Альтернативный текст](https://i.imgur.com/ImfM6Ly.png)
+![Альтернативный текст](https://imgur.com/undefined)
+![Альтернативный текст](https://imgur.com/jGcHqXL)
+![Альтернативный текст](https://imgur.com/ncxYK3g)
+![Альтернативный текст](https://imgur.com/mR7669v)
 
 
 

@@ -8,8 +8,8 @@
     "mod": "dock",
    "margin-left": 8,
  "margin-right": 8,
- "margin-top": 5,
- "margin-bottom": -1,
+ "margin-top": 4,
+ "margin-bottom": -2,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -18,12 +18,19 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
+	"modules-left": ["custom/arch","custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
 	"modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
+
+"custom/arch": {
+    "format": "🔺",  // Используем Unicode-иконку
+    "exec": "echo ''",
+    "interval": 300
+},
+
 
 "custom/led": {
     "format": "<span color='#021c18'>󰍿</span> <span color='#313436'></span> ",
@@ -64,16 +71,18 @@
 },
 "memory": {
     "interval": 1,
-    "rotate": 270,
+    "rotate": 0,
     "format": "{icon}",
-    "format-icons": ["󰝦","󰪞","󰪟","󰪠","󰪡","󰪢","󰪣","󰪤","󰪥"],
+    // "format-icons": [""],
+    "format-icons": [""],
+    // "format-icons": ["󰝦","󰪞","󰪟","󰪠","󰪡","󰪢","󰪣","󰪤","󰪥"],
     "max-length": 10
 },
 "cpu": {
     "interval": 1,
     "format": "{icon}",
     "rotate": 270,
-    "format-icons": ["󰝦","󰪞","󰪟","󰪠","󰪡","󰪢","󰪣","󰪤","󰪥"],
+    "format-icons": [""],
 },
 
 
@@ -390,7 +399,7 @@
         "format-disconnected": " ",
         "tooltip-format-disconnected": "Disconnected",
         "on-click": "/usr/local/bin/ags -t ControlPanel",
-        "interval": 2,
+        "interval": 2
     },
 
     "pulseaudio": {

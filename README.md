@@ -1,4 +1,4 @@
-![Альтернативный текст](file:///home/ihti/Screenshots/screen2.png)
+![Альтернативный текст](https://i.imgur.com/ImfM6Ly.png)
 
 
 

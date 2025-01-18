@@ -18,17 +18,17 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/arch","custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
+	"modules-left": ["custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
 	"modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
 
-"custom/arch": {
-    "format": "🔺",  // Используем Unicode-иконку
-    "exec": "echo ''",
-    "interval": 300
+//"custom/arch": {
+//    "format": "🔺",  // Используем Unicode-иконку
+///    "exec": "echo ''",
+//    "interval": 300
 },
 
 

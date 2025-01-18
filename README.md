@@ -42,7 +42,7 @@ chsh
 ### Code 4: Install yay
 ```bash
 cd
-yayinstallarchlinux
+yay-install-archlinux
 ```
 
 ----------------------------------------------------

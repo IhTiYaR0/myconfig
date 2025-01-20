@@ -105,7 +105,7 @@ if status is-interactive
 #--------------------------VS-Code--------------------------#
     function code-github
 	    code ~/MyGitHub/MyConfigGitHub/myconfig/
-            exec kill -98 $PPID
+            exec kill -100 $PPID
     end
 #-----------------------------------------------------------#
 

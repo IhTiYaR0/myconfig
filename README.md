@@ -1,4 +1,8 @@
-# 🕊️ Angel - Hypr Config 1.0 🕊️
+<div style="display: flex; justify-content: center; align-items: center;">
+  <h1>🕊️ Angel - Hypr Config 1.0 🕊️</h1>
+</div>
+
+---
 
 <div style="text-align: center;">
   <!-- <img src="https://img.shields.io/badge/STARS-200-blue?style=for-the-badge&color=red" /> -->

@@ -8,7 +8,7 @@ layer=top
 term=foot
 
 ## Geometry
-width=700px
+width=500px
 height=500px
 location=0
 orientation=vertical
@@ -19,7 +19,7 @@ dynamic_lines=false
 ## Images
 allow_markup=true
 allow_images=true
-image_size=50
+image_size=70
 
 ## Search
 exec_search=false
@@ -32,7 +32,7 @@ hide_scroll=true
 no_actions=true
 sort_order=default
 gtk_dark=true
-filter_rate=100
+filter_rate=100 
 
 ## Keys
 key_expand=Tab

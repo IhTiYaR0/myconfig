@@ -2,22 +2,33 @@
 * {
     font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
     font-size: 18px;
+	
 }
 
 #window {
-	background-color: --wofi-color0;
+	/* background-color: --wofi-color0; */
+	/* background-color: rgba(0, 0, 0, 0.3); */
+	background-image: url('/home/ihti/.Обои/wallpaper8.jpg');
+	background-size: cover; /* Для того чтобы картинка покрывала весь экран */
+    background-position: center; /* Для центрирования картинки */
+    background-repeat: no-repeat;
 	color: --wofi-color2;
 	border: 2px solid --wofi-color1;
 	border-radius: 0px;
 }
 
+
+
 #outer-box {
 	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.403);
 }
 
 #input {
-	background-color: --wofi-color1;
+	/* background-color: --wofi-color1; */
+	background-color: rgba(0, 0, 0, 0.4);
 	border: 0px solid --wofi-color3;
+	/* border: 10px sodid black; */
 	padding: 8px 12px;
 }
 
@@ -26,6 +37,8 @@
 }
 
 #inner-box {
+	/* background-color: rgba(0, 0, 0, 0.574); */
+	/* background-color: rgba(255, 255, 255, 0.3); */
 }
 
 #img {
@@ -38,15 +51,22 @@
 
 #text:selected {
 	color: --wofi-color0;
+	/* color: rgba(255, 255, 255, 0.901); */
+	
 }
 
 #entry {
 	padding: 8px;
+	border-radius: 100px;
 }
 
 #entry:selected {
-	background-color: --wofi-color3;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	/* background-color: --wofi-color3; */
 	color: --wofi-color0;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.6);
+
 }
 
 #unselected {
@@ -56,5 +76,6 @@
 }
 
 #input, #entry:selected {
-	border-radius: 4px;
+	/* border-radius: 4px; */
+	border-radius: 100px;
 }

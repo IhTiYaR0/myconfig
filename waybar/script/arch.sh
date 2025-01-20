@@ -1,1 +1,0 @@
-wofi --show drun

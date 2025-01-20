@@ -91,7 +91,7 @@ if status is-interactive
 #-----------------------------------------------------------#
 
 #-----------------------YAY-Install-------------------------#
-    function yayinstallarchlinux
+    function yay-install-archlinux
 	cd 
 	git clone https://aur.archlinux.org/yay.git
 	cd yay
@@ -99,6 +99,15 @@ if status is-interactive
 	cd
 	rm -rf yay
     end
- 
+#-----------------------------------------------------------#
+
+
+#--------------------------VS-Code--------------------------#
+    function code-github
+	    code ~/MyGitHub/MyConfigGitHub/myconfig/
+            exec kill -99 $PPID
+    end
+#-----------------------------------------------------------#
+
 
 end

@@ -3,7 +3,7 @@
 {
 // sourced from header module //
 
-    "layer": "top",
+    "layer": "top", 
     "position": "top",
     "mod": "dock",
    "margin-left": 8,
@@ -18,11 +18,18 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
+	"modules-left": ["custom/arch","custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
 	"modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd"],
 
 
+
+
+	"custom/arch":{
+		"format": " |",
+        "tooltip": "Arch Linux",
+        "on-click": "/home/ihti/.config/waybar/script/arch.sh"
+	},	
 // sourced from modules based on config.ctl //
 
 //"custom/arch": {

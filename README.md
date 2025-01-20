@@ -86,8 +86,4 @@ mv mywallpaper .Обои
 
 
 
-<style>
-  h1 { color:rgb(255, 255, 255); text-align: center; }
-  p { font-size: 18px; color: #eeeeee; }
-  img { border-radius: 4px; }
-</style>
+

@@ -1,10 +1,24 @@
-![Альтернативный текст](https://i.imgur.com/0Z11Uek.png)
+# 🕊️ Angel - Hypr Config 1.0 🕊️
 
-![Альтернативный текст](https://i.imgur.com/jslC4K4.png)
+<div style="text-align: center;">
+  <!-- <img src="https://img.shields.io/badge/STARS-200-blue?style=for-the-badge&color=red" /> -->
+  <img src="https://img.shields.io/badge/LAST%20COMMIT-January%202025-purple?style=for-the-badge&color=green" />
+  <img src="https://img.shields.io/badge/REPO%20SIZE-1.7%20MiB-00adb5?style=for-the-badge&color=orange" />
+</div>
 
-![Альтернативный текст](https://i.imgur.com/MkINkLT.png)
+<div style="display: inline-block; margin: 14px 0px;">
 
-![Альтернативный текст](https://i.imgur.com/O99xHyh.png)
+
+![Screenshot](https://i.imgur.com/QaFxQec.png)
+---
+![Screenshot](https://i.imgur.com/jYcgfmm.png)
+---
+![Screenshot](https://i.imgur.com/AAmnn2u.png)
+---
+![Screenshot](https://i.imgur.com/iDroSLO.png)
+---
+![Screenshot](https://i.imgur.com/vFTKWBU.png)
+---
 
 -----------------------------------------------
 
@@ -65,3 +79,11 @@ mv mywallpaper .Обои
 ```
 
 -----------------------------------------------------
+
+
+
+<style>
+  h1 { color:rgb(255, 255, 255); text-align: center; }
+  p { font-size: 18px; color: #eeeeee; }
+  img { border-radius: 4px; }
+</style>

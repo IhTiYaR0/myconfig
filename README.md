@@ -1,6 +1,6 @@
-<p align="center" style="font-size: 30px; font-weight: bold;">
+<h1 align="center" style="font-size: 30px; font-weight: bold;">
   🕊️ Angel - Hypr Config 1.0 🕊️
-</p>
+</h1>
 
 
 <p align="center">

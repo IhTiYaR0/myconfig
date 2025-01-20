@@ -10,14 +10,13 @@ if status is-interactive
 #------------------Для сохранении Репазитоии----------------#
     function up
         git push origin main
-        cd
-        clear
-	echo "Ваш-GitHub-Обновлен!"
+	    echo "Ваш-GitHub-Обновлен!"
     end
 #-----------------------------------------------------------#
 
 #----------------------------Hypr---------------------------#
     function uphypr
+        cd
         rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/hypr
         cd .config
         cp -r hypr ~/MyGitHub/MyConfigGitHub/myconfig/
@@ -30,6 +29,7 @@ if status is-interactive
 
 #----------------------------Fish---------------------------#
     function upfish
+        cd
         rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/fish
         cd .config
         cp -r fish ~/MyGitHub/MyConfigGitHub/myconfig/
@@ -42,6 +42,7 @@ if status is-interactive
 
 #----------------------------Kitty--------------------------#
     function upkitty
+        cd
         rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/kitty
         cd .config
         cp -r kitty ~/MyGitHub/MyConfigGitHub/myconfig/
@@ -54,6 +55,7 @@ if status is-interactive
 
 #----------------------------Waybar-------------------------#
     function upwaybar
+        cd
         rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/waybar
         cd .config
         cp -r waybar ~/MyGitHub/MyConfigGitHub/myconfig/
@@ -66,6 +68,7 @@ if status is-interactive
 
 #----------------------------Wofi---------------------------#
     function upwofi
+        cd
         rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/wofi
         cd .config
         cp -r wofi ~/MyGitHub/MyConfigGitHub/myconfig/
@@ -79,6 +82,7 @@ if status is-interactive
 
 
     function upobsidian
+        cd
         cd MyObsidian/
         clear
         echo "Вы на месте!"

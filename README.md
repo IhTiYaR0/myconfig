@@ -1,6 +1,7 @@
-<p align="center" style="font-size: 34px; font-weight: bold;">🕊️ Angel - Hypr Config 1.0 🕊️</p>
+<p align="center">
+  🕊️ Angel - Hypr Config 1.0 🕊️
+</p>
 
----
 
 <p align="center">
   <!-- <img src="https://img.shields.io/badge/STARS-200-blue?style=for-the-badge&color=red" /> -->

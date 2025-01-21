@@ -116,5 +116,7 @@ if status is-interactive
 
 
 
+set -x XDG_SESSION_TYPE wayland
+set -x WAYLAND_DISPLAY wayland-0
 
 end

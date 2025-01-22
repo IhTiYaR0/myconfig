@@ -8,7 +8,7 @@
 #window {
 	/* background-color: --wofi-color0; */
 	/* background-color: rgba(0, 0, 0, 0.3); */
-	background-image: url('/home/ihti/.Обои/wallpaper8.jpg');
+	background-image: url('/home/ihti/.Обои/defuldtheme.jpg');
 	background-size: cover; /* Для того чтобы картинка покрывала весь экран */
     background-position: center; /* Для центрирования картинки */
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 
 #entry:selected {
 	background-color: rgba(0, 0, 0, 0);
-	border: 2px solid white;
+	border: 2px solid #FFFFFF;
 	/* background-color: --wofi-color3; */
 	color: --wofi-color0;
 	box-shadow: inset 0 0 14px rgba(255, 255, 255, 0.6);

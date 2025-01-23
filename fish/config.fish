@@ -115,14 +115,14 @@ if status is-interactive
 
 
 
-set -U fish_color_user '#4379FF' 
-set -U fish_color_cwd '#4379FF' 
-set -U fish_color_command '#4379FF' 
+set -U fish_color_user '#68f26d' 
+set -U fish_color_cwd '#68f26d' 
+set -U fish_color_command '#68f26d' 
 
 
 set -U fish_color_param green
-set -U fish_color_normal white
-set -U fish_color_selection white --background='#50FA7B'
+set -U fish_color_normal green
+#set -U fish_color_selection white --background='#50FA7B'
 set -U fish_color_error '#FF5555'
 set -U fish_color_host '#FFFFFF'
 # set -U fish_color_autosuggestion brblack
@@ -131,15 +131,15 @@ set -U fish_color_host '#FFFFFF'
 # Основной стиль текста
 # Основной стиль текста
 # set -U fish_color_normal '#50FA7B'                    # Обычный текст (неоново-зеленый)
-# set -U fish_color_command '#4379FF' --bold            # Команды (оранжевый, жирный)
+# set -U fish_color_command '#68f26d' --bold            # Команды (оранжевый, жирный)
 # set -U fish_color_param '#8BE9FD'                     # Аргументы команд (нежно-голубой)
-# set -U fish_color_cwd '#4379FF' --bold                # Текущий каталог (неоново-зеленый)
+# set -U fish_color_cwd '#68f26d' --bold                # Текущий каталог (неоново-зеленый)
 # set -U fish_color_cwd_root '#FF5555' --bold           # Каталог root (красный, жирный)
 
 # # Приветствие в терминале (ihti@archlinux ~>)
-# set -U fish_color_user '#4379FF' --bold               # Имя пользователя (неоново-зеленый, жирный)
+# set -U fish_color_user '#68f26d' --bold               # Имя пользователя (неоново-зеленый, жирный)
 # set -U fish_color_host '#50FA7B'                      # Хост (неоново-зеленый)
-# set -U fish_color_cwd '#4379FF' --bold                # Каталог (неоново-зеленый)
+# set -U fish_color_cwd '#68f26d' --bold                # Каталог (неоново-зеленый)
 
 # # Специальные элементы
 # set -U fish_color_comment '#6272A4'                   # Комментарии (спокойный синий)

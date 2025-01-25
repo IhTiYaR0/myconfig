@@ -1,6 +1,6 @@
-<p align="center" style="font-size: 30px; font-weight: bold;">
+<h1 align="center" style="font-size: 30px; font-weight: bold;">
   🕊️ IHTI - Hypr Config 1.0 🕊️
-</p>
+</h1>
 
 
 <p align="center">
@@ -17,21 +17,21 @@
 
 
   
-<h3 style="color: #14E0F8;">[ Wind 🌪️ ]</h3>
+<span style="color: #14E0F8; font-size: 16px; font-weight: bold;">[ Wind 🌪️ ]</span>
 <div style="display: inline-block; margin: -12px 0px;">
 
   | ![](https://i.imgur.com/na5EKcc.png) | ![](https://i.imgur.com/mOzXIYJ.png) |
   |----------------------|------------------------------------------------------|
   | ![](https://i.imgur.com/rYVxf8J.png) | ![](https://i.imgur.com/c9CUHbo.png) |
 ---
-<h3 style="color: #FBAE23;">[ Lightning ⚡ ]</h3>
+<span style="color: #FBAE23 font-size: 16px; font-weight: bold;">[ Lightning ⚡ ]</span>
 <div style="display: inline-block; margin: -12px 0px;">
 
   | ![](https://i.imgur.com/4Sb6KUj.png) | ![](https://i.imgur.com/qPhXTys.png) |
   |--------------------------------------|--------------------------------------|
   | ![](https://i.imgur.com/ta8bS00.png) | ![](https://i.imgur.com/SHI3DCD.png) | 
 ---
-  <h3 style="color: #68f26d;">[ Default 🌿 ]</h3>
+  <span style="color: #68f26d; font-size: 16px; font-weight: bold;">[ Default 🌿 ]</span>
   <div style="display: inline-block; margin: -12px 0px;">
 
   | ![](https://i.imgur.com/mpGEOVM.png) | ![](https://i.imgur.com/DNHk2bB.png) |
@@ -84,7 +84,7 @@
 
 
 
-<h1 style="color:rgb(231, 0, 0);">⚠ Warning</h1>
+<span style="color:rgb(231, 0, 0); font-size: 28px; font-weight: bold;">⚠ Warning</span>
 
 To install my config, you **must** have `Shell = fish`.  
 Without it, my config will **not work**!
@@ -110,7 +110,9 @@ chsh
 ```bash
 /bin/fish
 ```
-<h1 style="color:rgb(0, 255, 30);">Finsh !</h1>
+<span style="color:rgb(0, 255, 30); font-size: 28px; font-weight: bold;">Finsh !</span>
+
+---
 
 ![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
 

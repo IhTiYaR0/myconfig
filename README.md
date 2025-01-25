@@ -11,13 +11,13 @@
 
 
 
-  <h3 align="center" style="font-size: 50px;">🌈 Themes Overview</h3>
+  <h2 style="font-size: 50px;">🌈 Themes Overview</h2>
 
 
 
 <div align="center">
 
-### 🌪️ Wind
+### [ 🌪️ Wind ]
 <table>
 <tr>
 <td><img src="https://i.imgur.com/na5EKcc.png" alt="Wind 1" style="border: 3px solid #14E0F8; border-radius: 8px;"></td>
@@ -29,7 +29,7 @@
 </tr>
 </table>
 
-### ⚡ Lightning
+### [ ⚡ Lightning ]
 <table>
 <tr>
 <td><img src="https://i.imgur.com/4Sb6KUj.png" alt="Lightning 1" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
@@ -41,7 +41,7 @@
 </tr>
 </table>
 
-### 🌿 Default
+### [ 🌿 Default] 
 <table>
 <tr>
 <td><img src="https://i.imgur.com/mpGEOVM.png" alt="Default 1" style="border: 3px solid #FFFFFF; border-radius: 8px;"></td>

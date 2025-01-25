@@ -10,12 +10,16 @@ sed -i 's/border_size = [0-80]\+/border_size = 3/g' ~/.config/hypr/hyprland.conf
 hyprctl reload
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Fish------------------------------------------------------------------#
-sed -i "s/set -U fish_color_cwd '[#0-9a-fA-F]*'/set -U fish_color_cwd '#1AE8FF'/g" ~/.config/fish/config.fish 
-sed -i "s/set -U fish_color_user '[#0-9a-fA-F]*'/set -U fish_color_user '#1AE8FF'/g" ~/.config/fish/config.fish
+# sed -i "s/set -U fish_color_cwd '[#0-9a-fA-F]*'/set -U fish_color_cwd '#1AE8FF'/g" ~/.config/fish/config.fish 
+# sed -i "s/set -U fish_color_user '[#0-9a-fA-F]*'/set -U fish_color_user '#1AE8FF'/g" ~/.config/fish/config.fish
 sed -i "s/set -U fish_color_command '[#0-9a-fA-F]*'/set -U fish_color_command '#1AE8FF'/g" ~/.config/fish/config.fish
+sed -i 's/set_color "#[a-fA-F0-9]\{6\}"/set_color "#14E0F8"/g' ~/.config/fish/config.fish
 #--------------------------------------------------------------------------------------------------------------------#
 sed -i 's/background #[0-9a-fA-F]\{6\}/background #000212/g' ~/.config/kitty/kitty.conf 
 sed -i 's/background_opacity 0\.[0-9]/background_opacity 0.5/' ~/.config/kitty/kitty.conf && kitty @ set-colors --reload
+
+sed -i 's/"workbench.colorTheme": "[^"]*"/"workbench.colorTheme": "Night Owl"/g' ~/.config/Code/User/settings.json
+sed -i 's/"workbench.iconTheme": "[^"]*"/"workbench.iconTheme": "icons"/g' ~/.config/Code/User/settings.json
 #------------------------------------------Waybar------------------------------------------------------------------#
 # sed -i '/#custom-arch {/,/}/s/color: #[0-9a-fA-F]\{6\};/color: #FBB532;/g' ~/.config/waybar/style.css
 sed -i '/window#waybar {/,/}/ s/background: rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/background: rgba(0, 28, 31, 0.4);/' ~/.config/waybar/style.css

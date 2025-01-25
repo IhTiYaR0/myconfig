@@ -10,12 +10,16 @@ sed -i 's/border_size = [0-80]\+/border_size = 2/g' ~/.config/hypr/hyprland.conf
 hyprctl reload
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Fish------------------------------------------------------------------#
-sed -i "s/set -U fish_color_cwd '[#0-9a-fA-F]*'/set -U fish_color_cwd '#FFE34D'/g" ~/.config/fish/config.fish 
-sed -i "s/set -U fish_color_user '[#0-9a-fA-F]*'/set -U fish_color_user '#FFE34D'/g" ~/.config/fish/config.fish
+# sed -i "s/set -U fish_color_cwd '[#0-9a-fA-F]*'/set -U fish_color_cwd '#FFE34D'/g" ~/.config/fish/config.fish 
+# sed -i "s/set -U fish_color_user '[#0-9a-fA-F]*'/set -U fish_color_user '#FFE34D'/g" ~/.config/fish/config.fish
 sed -i "s/set -U fish_color_command '[#0-9a-fA-F]*'/set -U fish_color_command '#FFE34D'/g" ~/.config/fish/config.fish
+sed -i 's/set_color "#[a-fA-F0-9]\{6\}"/set_color "#FBAE23"/g' ~/.config/fish/config.fish
 #--------------------------------------------------------------------------------------------------------------------#
 sed -i 's/background #[0-9a-fA-F]\{6\}/background #140d00/g' ~/.config/kitty/kitty.conf && kitty @ set-colors --reload
 sed -i 's/background_opacity 0\.[0-9]/background_opacity 0.6/' ~/.config/kitty/kitty.conf && kitty @ set-colors --reload
+
+sed -i 's/"workbench.colorTheme": "[^"]*"/"workbench.colorTheme": "Gruvbox Dark Hard"/g' ~/.config/Code/User/settings.json
+sed -i 's/"workbench.iconTheme": "[^"]*"/"workbench.iconTheme": "vscode-unfancy-file-icons"/g' ~/.config/Code/User/settings.json
 #------------------------------------------Waybar------------------------------------------------------------------#
 # sed -i '/#custom-arch {/,/}/s/color: #[0-9a-fA-F]\{6\};/color: #FBB532;/g' ~/.config/waybar/style.css
 sed -i '/window#waybar {/,/}/ s/background: rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/background: rgba(0, 0, 0, 0.6);/' ~/.config/waybar/style.css

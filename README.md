@@ -4,113 +4,78 @@
 
 
 <p align="center">
-  <!-- <img src="https://img.shields.io/badge/STARS-200-blue?style=for-the-badge&color=red" /> -->
-  <img src="https://img.shields.io/badge/LAST%20COMMIT-January%202025-purple?style=for-the-badge&color=green" />
-  <img src="https://img.shields.io/badge/REPO%20SIZE-1.7%20MiB-00adb5?style=for-the-badge&color=orange" />
+  <img src="https://img.shields.io/badge/LAST%20COMMIT-January%202025-purple?style=for-the-badge&color=green" alt="Last Commit" />
+  <img src="https://img.shields.io/badge/REPO%20SIZE-1.7%20MiB-gradient?style=for-the-badge&color=ff5733" alt="Repo Size" />
 </p>
 
-<div style="display: inline-block; margin: 14px 0px;">
 
 
-
-# Themes 
-
-
-  
-<span style="color: #14E0F8; font-size: 16px; font-weight: bold;">[ Wind 🌪️ ]</span>
-<div style="display: inline-block; margin: -12px 0px;">
-
-  | ![](https://i.imgur.com/na5EKcc.png) | ![](https://i.imgur.com/mOzXIYJ.png) |
-  |----------------------|------------------------------------------------------|
-  | ![](https://i.imgur.com/rYVxf8J.png) | ![](https://i.imgur.com/c9CUHbo.png) |
----
-<span style="color: #FBAE23 font-size: 16px; font-weight: bold;">[ Lightning ⚡ ]</span>
-<div style="display: inline-block; margin: -12px 0px;">
-
-  | ![](https://i.imgur.com/4Sb6KUj.png) | ![](https://i.imgur.com/qPhXTys.png) |
-  |--------------------------------------|--------------------------------------|
-  | ![](https://i.imgur.com/ta8bS00.png) | ![](https://i.imgur.com/SHI3DCD.png) | 
----
-  <span style="color: #68f26d; font-size: 16px; font-weight: bold;">[ Default 🌿 ]</span>
-  <div style="display: inline-block; margin: -12px 0px;">
-
-  | ![](https://i.imgur.com/mpGEOVM.png) | ![](https://i.imgur.com/DNHk2bB.png) |
-  |--------------------------------------|--------------------------------------|
-  | ![](https://i.imgur.com/hznd15z.png) | ![](https://i.imgur.com/BGe118Q.png) | 
+<div align="center" style="background: linear-gradient(90deg, #FF5733, #FFC300, #DAF7A6); padding: 20px; border-radius: 12px;">
+  <h3 style="color: #FFF; font-size: 38px;">🌈 Themes Overview</h3>
+</div>
 
 
-<!-- ## Themes  
+<div align="center">
 
-<details>
+## 🌪️ Wind
+<table>
+<tr>
+<td><img src="https://i.imgur.com/na5EKcc.png" alt="Wind 1" style="border: 3px solid #14E0F8; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/mOzXIYJ.png" alt="Wind 2" style="border: 3px solid #14E0F8; border-radius: 8px;"></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/rYVxf8J.png" alt="Wind 3" style="border: 3px solid #14E0F8; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/c9CUHbo.png" alt="Wind 4" style="border: 3px solid #14E0F8; border-radius: 8px;"></td>
+</tr>
+</table>
 
----
+## ⚡ Lightning
+<table>
+<tr>
+<td><img src="https://i.imgur.com/4Sb6KUj.png" alt="Lightning 1" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/qPhXTys.png" alt="Lightning 2" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ta8bS00.png" alt="Lightning 3" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/SHI3DCD.png" alt="Lightning 4" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+</tr>
+</table>
 
-  <summary style="color: #14E0F8;">[ Wind 🌪️ ]</summary>
+## 🌿 Default
+<table>
+<tr>
+<td><img src="https://i.imgur.com/mpGEOVM.png" alt="Default 1" style="border: 3px solid #FFFFFF; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/DNHk2bB.png" alt="Default 2" style="border: 3px solid #FFFFFF; border-radius: 8px;"></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hznd15z.png" alt="Default 3" style="border: 3px solid #FFFFFF; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/BGe118Q.png" alt="Default 4" style="border: 3px solid #FFFFFF; border-radius: 8px;"></td>
+</tr>
+</table>
 
-  | ![](https://i.imgur.com/na5EKcc.png) | ![](https://i.imgur.com/mOzXIYJ.png) |
-  |----------------------|------------------------------------------------------|
-  | ![](https://i.imgur.com/rYVxf8J.png) | ![](https://i.imgur.com/c9CUHbo.png) |
-  
-
-</details>
-
-<details>
-
----
-
-  <summary style="color: #FBAE23;">[ Lightning ⚡ ]</summary>
-
-  | ![](https://i.imgur.com/4Sb6KUj.png) | ![](https://i.imgur.com/qPhXTys.png) |
-  |--------------------------------------|--------------------------------------|
-  | ![](https://i.imgur.com/ta8bS00.png) | ![](https://i.imgur.com/SHI3DCD.png) | 
-
-</details>
-
-<details>
+</div>
 
 ---
 
-  <summary style="color: #68f26d;">[ Default 🌿 ]</summary>
+## ⚠️ **Important Information**
+<div style="background-color: #121212; color: #FFFFFF; padding: 15px; border-radius: 12px; border-left: 4px solid #FF5733;">
+To use this configuration, make sure your shell is set to <b>Fish</b>. Otherwise, it will not work correctly.
+</div>
 
-  | ![](https://i.imgur.com/mpGEOVM.png) | ![](https://i.imgur.com/DNHk2bB.png) |
-  |--------------------------------------|--------------------------------------|
-  | ![](https://i.imgur.com/hznd15z.png) | ![](https://i.imgur.com/BGe118Q.png) | 
-
-</details> -->
-
------------------------------------------------
-
-
-
-
-
-<span style="color:rgb(231, 0, 0); font-size: 28px; font-weight: bold;">⚠ Warning</span>
-
-To install my config, you **must** have `Shell = fish`.  
-Without it, my config will **not work**!
-
-### How to set Fish as your default shell
-
+## 🐟 How to set Fish as your default shell
 1. **Install Fish**  
-   First, you need to install Fish. Run the following command:
-
-```bash
+   ```bash
    sudo pacman -S fish
-```
-
-2. **Replace the shell a fish**  
-    To replace Shell with fish, write the command:   
-##### **Command 1**
-```bash
-chsh
-```
-2.1 **After this command, write your sudo password**
-
-##### **Command 3**
-```bash
-/bin/fish
-```
-<span style="color:rgb(0, 255, 30); font-size: 28px; font-weight: bold;">Finsh !</span>
+   ```
+2. **Replace your shell with Fish**
+    ```bash
+    chsh
+    ```
+    Enter your password, then:
+    ```bash
+    /bin/fish
+    ```
+3. You're all set! 🎉
 
 ---
 
@@ -123,9 +88,18 @@ chsh
   <img src="https://img.shields.io/badge/Hyprland-7E42F4?style=for-the-badge&logo=hyprland" alt="Hyprland" />
 </p>
 
-# Install My Hyprland↓
+ <h3 style="font-size: 26px; font-weight: bold;">
+ 📥 Installation Instructions</h3>
+
+
 ```bash
 git clone https://github.com/IhTiYaR0/myconfig.git
 cd myconfig
 source install.sh
 ```
+
+---
+
+<!-- <p align="center">
+  <img src="https://i.imgur.com/na5EKcc.png" alt="Decorative" width="450" style="border-radius: 12px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);" />
+</p> -->

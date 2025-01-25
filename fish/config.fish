@@ -3,6 +3,7 @@ if status is-interactive
     function fish_greeting; end
 
 
+
     
     function fish_prompt
         
@@ -36,8 +37,7 @@ if status is-interactive
     end
     
     
-    alias ll='ls -lah'
-    alias gs='git status'
+
     alias v='nvim'
 
     

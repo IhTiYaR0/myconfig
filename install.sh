@@ -39,8 +39,6 @@ sudo rm -rf ~/.config/waybar
 cp -r waybar ~/.config/
 sudo rm -rf ~/.config/wofi
 cp -r wofi ~/.config/
-
-sudo mv gtk.css ~/.config/gtk-3.0/
 rm -rf ~/myconfig
 
 
@@ -62,6 +60,7 @@ sudo rm -rf /usr/share/themes/Fluent-orange
 sudo mv Fluent-orange /usr/share/icons/
 sudo rm -rf /usr/share/themes/Uos-fulldistro-icons-Dark
 sudo mv Uos-fulldistro-icons-Dark /usr/share/icons/
+sudo mv gtk.css ~/.config/gtk-3.0/
 rm -rf ~/gtkthemes
 
 figlet -f slant "Install Wallpaper" | lolcat | sed 's/^/\x1b[32m/' | sed 's/$/\x1b[0m/'
@@ -78,4 +77,3 @@ mv mywallpaper .Wallpapers
 cd
 
 figlet -f slant "Finish" | lolcat | sed 's/^/\x1b[32m/' | sed 's/$/\x1b[0m/'
-

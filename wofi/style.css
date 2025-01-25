@@ -1,4 +1,4 @@
-/** ********** Fonts ********** **/
+/** *********** Fonts ********** **/
 * {
     font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
     font-size: 18px;
@@ -8,7 +8,7 @@
 #window {
 	/* background-color: --wofi-color0; */
 	/* background-color: rgba(0, 0, 0, 0.3); */
-	background-image: url('/home/ihti/.Обои/wallpaperr4.png');
+	background-image: url('/home/ihti/.Wallpapers/wallpaperr4.png');
 	background-size: cover; /* Для того чтобы картинка покрывала весь экран */
     background-position: center; /* Для центрирования картинки */
     background-repeat: no-repeat;

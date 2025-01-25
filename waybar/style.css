@@ -14,12 +14,12 @@
 
 window#waybar {
     
-     background: rgba(0, 0, 0, 0.8);
+     background: rgba(0, 0, 0, 0.6);
          
-  /*  border-radius: 15px; */
- /*  border: 2px solid #ffffff; */
-/* border: 0px solid #A1BDCE; */
- border: 2px solid #ffffff;
+  /*  border-radius: 6px; */
+ /*  border: 2px solid #FFFFFF; */
+/* border: 2px solid #FFFFFF; */
+ border: 2px solid #FFFFFF;
  border-radius: 6px;
 }
 
@@ -29,7 +29,7 @@ tooltip {
         color: #ffffff;
         font-size: 13px;
         border-radius: 7px;
-       border: 2px solid #ffffff;
+       border: 3px solid #14E0F8;
 
 
     }
@@ -54,9 +54,9 @@ tooltip {
 
 #workspaces button {
 background: rgba(255, 255, 255, 0);
-  color: #ffffff;
+  color: #FFFFFF;
 
-    /*color: #ffffff;*/
+    /*color: #ffffFFFFFFff;*/
     box-shadow: none;
 	text-shadow: none;
     border-radius: 9px;

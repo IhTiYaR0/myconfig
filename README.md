@@ -17,7 +17,6 @@
 
 <h2 style="font-size: 50px;">🌈 Themes Overview</h2>
 
-'
 <div align="center">
 
 ### [ 🌪️ Wind ]
@@ -102,4 +101,3 @@ source install.sh
 ```
 
 ---
-

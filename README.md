@@ -1,20 +1,23 @@
+![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
+
 <h1 align="center" style="font-size: 70px; font-weight: bold;">
   🕊️ IHTI - Hypr Config 1.0 🕊️
 </h1>
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/LAST%20COMMIT-January%202025-purple?style=for-the-badge&color=green" alt="Last Commit" />
   <img src="https://img.shields.io/badge/REPO%20SIZE-1.7%20MiB-gradient?style=for-the-badge&color=ff5733" alt="Repo Size" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=Linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=ArchLinux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/Hyprland-7E42F4?style=for-the-badge&logo=hyprland" alt="Hyprland" />
+</p>
 
+<h2 style="font-size: 50px;">🌈 Themes Overview</h2>
 
-
-  <h2 style="font-size: 50px;">🌈 Themes Overview</h2>
-
-
-
+'
 <div align="center">
 
 ### [ 🌪️ Wind ]
@@ -100,6 +103,3 @@ source install.sh
 
 ---
 
-<!-- <p align="center">
-  <img src="https://i.imgur.com/na5EKcc.png" alt="Decorative" width="450" style="border-radius: 12px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);" />
-</p> -->

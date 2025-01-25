@@ -37,13 +37,13 @@ waybar &
 gsettings set org.gnome.desktop.interface icon-theme "Cool-Dark-Icons"
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Wofi------------------------------------------------------------------#
-sed -i "s|background-image: url('/home/ihti/.Обои/[^']*')|background-image: url('/home/ihti/.Обои/blue.jpg')|g" ~/.config/wofi/style.css
+sed -i "s|background-image: url('$(echo ~)/.Wallpapers/[^']*')|background-image: url('$(echo ~)/.Wallpapers/blue.jpg')|g" ~/.config/wofi/style.css
 sed -i 's/border: 2px solid #[0-9a-fA-F]\{6\};/border: 2px solid #14E0F8;/g' ~/.config/wofi/style.css
 sed -i 's/box-shadow: inset 0 0 14px rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/box-shadow: inset 0 0 14px rgba(0, 165, 184, 0.6);/g' ~/.config/wofi/style.css
 pkill wofi
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Swaybg------------------------------------------------------------------#
 pkill swaybg
-swaybg -i /home/ihti/.Обои/blue.jpg
+swaybg -i ~/.Wallpapers/blue.jpg
 #--------------------------------------------------------------------------------------------------------------------#
 # exec fish

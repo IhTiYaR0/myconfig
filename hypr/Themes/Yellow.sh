@@ -37,13 +37,13 @@ waybar &
 gsettings set org.gnome.desktop.interface icon-theme "Fluent-orange"
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Wofi------------------------------------------------------------------#
-sed -i "s|background-image: url('/home/ihti/.Обои/[^']*')|background-image: url('/home/ihti/.Обои/wallpaperr7.jpg')|g" ~/.config/wofi/style.css
+sed -i "s|background-image: url('$(echo ~)/.Wallpapers/[^']*')|background-image: url('$(echo ~)/.Wallpapers/wallpaperr7.jpg')|g" ~/.config/wofi/style.css
 sed -i 's/border: 2px solid #[0-9a-fA-F]\{6\};/border: 2px solid #FBAE23;/g' ~/.config/wofi/style.css
 sed -i 's/box-shadow: inset 0 0 14px rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/box-shadow: inset 0 0 14px rgba(251, 174, 35, 0.6);/g' ~/.config/wofi/style.css
 pkill wofi
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Swaybg------------------------------------------------------------------#
 pkill swaybg
-swaybg -i /home/ihti/.Обои/wallpaperr7.jpg
+swaybg -i ~/.Wallpapers/wallpaperr7.jpg
 #--------------------------------------------------------------------------------------------------------------------#
 # exec fish

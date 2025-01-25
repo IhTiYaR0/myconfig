@@ -40,13 +40,13 @@ gsettings set org.gnome.desktop.interface icon-theme "Uos-fulldistro-icons-Dark"
 # sed -i 's/^gtk-theme-name=.*/gtk-theme-name=Otis/' /home/ihti/.config/gtk-3.0/setting.ini
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Wofi------------------------------------------------------------------#
-sed -i "s|background-image: url('/home/ihti/.Обои/[^']*')|background-image: url('/home/ihti/.Обои/wallpaperr4.png')|g" ~/.config/wofi/style.css
+sed -i "s|background-image: url('$(echo ~)/.Wallpapers/[^']*')|background-image: url('$(echo ~)/.Wallpapers/wallpaperr4.png')|g" ~/.config/wofi/style.css
 sed -i 's/border: 2px solid #[0-9a-fA-F]\{6\};/border: 2px solid #FFFFFF;/g' ~/.config/wofi/style.css
 sed -i 's/box-shadow: inset 0 0 14px rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/box-shadow: inset 0 0 14px rgba(255, 255, 255, 0.6);/g' ~/.config/wofi/style.css
 pkill wofi
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Swaybg------------------------------------------------------------------#
 pkill swaybg
-swaybg -i /home/ihti/.Обои/wallpaperr4.png 
+swaybg -i ~/.Wallpapers/wallpaperr4.png 
 #--------------------------------------------------------------------------------------------------------------------#
 # exec fish

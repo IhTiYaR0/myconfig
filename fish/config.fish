@@ -8,7 +8,7 @@ if status is-interactive
     function fish_prompt
         
         set -g fish_prompt_pwd_dir_length 2  # Показываем только 2 уровня пути
-        set_color "#38D100"
+        set_color "#14E0F8"
         # echo -n (string replace -r "^$HOME!" "/home/$USER" 🖵〘  🗎 (prompt_pwd)〙)
         echo -n (string replace -r "^$HOME!" "/home/$USER" [🖂 (prompt_pwd)])
         # echo -n (string replace -r "^$HOME!" "/home/$USER" 🗎 (prompt_pwd))
@@ -38,7 +38,8 @@ if status is-interactive
     
     
 
-    alias v='nvim'
+    alias n='nvim'
+    alias gitup='source ~/.config/fish/functions/gitupdate.sh'
 
     
     
@@ -54,85 +55,7 @@ if status is-interactive
     end
 #-----------------------------------------------------------#
 
-#----------------------------Hypr---------------------------#
-    function uphypr
-        cd
-        rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/hypr
-        cd .config
-        cp -r hypr ~/MyGitHub/MyConfigGitHub/myconfig/
-        cd /home/ihti/MyGitHub/MyConfigGitHub/myconfig/
-        git add hypr
-        clear
-        echo "Ваш-Hypr-Обновился!"
-    end
-#-----------------------------------------------------------#
 
-#----------------------------Fish---------------------------#
-    function upfish
-        cd
-        rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/fish
-        cd .config
-        cp -r fish ~/MyGitHub/MyConfigGitHub/myconfig/
-        cd /home/ihti/MyGitHub/MyConfigGitHub/myconfig/
-        git add fish
-        clear
-        echo "Ваш-Fish-Обновился!"
-    end
-#-----------------------------------------------------------#
-
-#----------------------------Kitty--------------------------#
-    function upkitty
-        cd
-        rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/kitty
-        cd .config
-        cp -r kitty ~/MyGitHub/MyConfigGitHub/myconfig/
-        cd /home/ihti/MyGitHub/MyConfigGitHub/myconfig/
-        git add kitty
-        clear
-        echo "Ваш-Kitty-Обновился!"
-    end
-#-----------------------------------------------------------#
-
-#----------------------------Waybar-------------------------#
-    function upwaybar
-        cd
-        rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/waybar
-        cd .config
-        cp -r waybar ~/MyGitHub/MyConfigGitHub/myconfig/
-        cd /home/ihti/MyGitHub/MyConfigGitHub/myconfig/
-        git add waybar
-        clear
-        echo "Ваш-Waybar-Обновился!"
-    end
-#-----------------------------------------------------------#
-
-#----------------------------Wofi---------------------------#
-    function upwofi
-        cd
-        rm -rf /home/ihti/MyGitHub/MyConfigGitHub/myconfig/wofi
-        cd .config
-        cp -r wofi ~/MyGitHub/MyConfigGitHub/myconfig/
-        cd /home/ihti/MyGitHub/MyConfigGitHub/myconfig/
-        git add wofi
-        clear
-        echo "Ваш-Wofi-Обновился!"
-    end
-#-----------------------------------------------------------#
-
-
-
-    function upobsidian
-        cd
-        cd MyObsidian/
-        clear
-        echo "Вы на месте!"
-        git add .
-    end
-
-
-#-----------------------------------------------------------#
-#-----------------------------------------------------------#
-#-----------------------------------------------------------#
 
 #-----------------------YAY-Install-------------------------#
     function yay-install-archlinux
@@ -157,7 +80,7 @@ if status is-interactive
 
 # set -U fish_color_user '#1AE8FF' 
 # set -U fish_color_cwd '#FFFF00' 
-set -U fish_color_command '#68f26d' 
+set -U fish_color_command '#1AE8FF' 
 
 
 set -U fish_color_param green
@@ -176,7 +99,7 @@ set -U fish_color_error '#FF5555'
 # Основной стиль текста
 # Основной стиль текста
                 # Обычный текст (неоново-зеленый)
-# set -U fish_color_command '#68f26d' --bold            # Команды (оранжевый, жирный)
+# set -U fish_color_command '#1AE8FF' --bold            # Команды (оранжевый, жирный)
 # set -U fish_color_param '#8BE9FD'                     # Аргументы команд (нежно-голубой)
 # set -U fish_color_cwd '#1AE8FF' --bold                # Текущий каталог (неоново-зеленый)
 # set -U fish_color_cwd_root '#FF5555' --bold           # Каталог root (красный, жирный)

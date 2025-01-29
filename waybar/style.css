@@ -14,14 +14,28 @@
 
 window#waybar {
     
-     background: rgba(0, 0, 0, 0.6);
+     background: rgba(0, 28, 31, 0.4);
          
-  /*  border-radius: 6px; */
- /*  border: 2px solid #FFFFFF; */
-/* border: 2px solid #FFFFFF; */
- border: 2px solid #FFFFFF;
- border-radius: 6px;
+  /*  border-radius: 8px; */
+ /*  border: 3px solid #14E0F8; */
+/* border: 3px solid #14E0F8; */
+ border: 3px solid #14E0F8;
+ border-radius: 8px;
 }
+
+
+
+
+
+#custom-button {
+    font-size: 19px;
+    color: #FFFFFF;
+    margin-right: 18px;
+    margin-left: -4px;
+    margin-bottom: -1px;
+    
+}
+
 
 
 tooltip {
@@ -29,7 +43,7 @@ tooltip {
         color: #ffffff;
         font-size: 13px;
         border-radius: 7px;
-       border: 3px solid #14E0F8;
+       border: 3px solid #14e0f8;
 
 
     }
@@ -54,7 +68,7 @@ tooltip {
 
 #workspaces button {
 background: rgba(255, 255, 255, 0);
-  color: #FFFFFF;
+  color: #14E0F8;
 
     /*color: #ffffFFFFFFff;*/
     box-shadow: none;
@@ -202,15 +216,15 @@ background:  #161320;
  
 }
 
-#idle_inhibitor{
+#idle_inhibitor {
 color: #24966e;
 background: @bar-bg;
     opacity: 1;
     margin: 4px 0px 4px 0px;
     padding-left: 4px;
     padding-right: 4px;
-
 }
+
 #clock{
     color: white;
     /* color: #A1BDCE; */

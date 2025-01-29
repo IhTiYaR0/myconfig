@@ -1,7 +1,7 @@
 ![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
 
 <h1 align="center" style="font-size: 70px; font-weight: bold;">
-  🕊️ IHTI - Hypr Config 1.0 🕊️
+  🕊️ IHTI - Hypr Config 1.2 🕊️
 </h1>
 
 <p align="center">
@@ -40,6 +40,18 @@
 <tr>
 <td><img src="https://i.imgur.com/ta8bS00.png" alt="Lightning 3" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
 <td><img src="https://i.imgur.com/SHI3DCD.png" alt="Lightning 4" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+</tr>
+</table>
+
+### [ 🌃 Night ]
+<table>
+<tr>
+<td><img src="https://i.imgur.com/YWJZVOw.png" alt="Lightning 1" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/BT4Phyi.png" alt="Lightning 2" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hC6VtBW.png" alt="Lightning 3" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
+<td><img src="https://i.imgur.com/IZ8ivxZ.png" alt="Lightning 4" style="border: 3px solid #FBAE23; border-radius: 8px;"></td>
 </tr>
 </table>
 

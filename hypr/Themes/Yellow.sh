@@ -1,9 +1,9 @@
 #------------------------------------------Hyprland------------------------------------------------------------------#
 sed -i 's/gaps_out = [0-80]\+/gaps_out = 20/g' ~/.config/hypr/hyprland.conf
-sed -i 's/gaps_in = [0-80]\+/gaps_in = 10/g' ~/.config/hypr/hyprland.conf
+sed -i 's/gaps_in = [0-80]\+/gaps_in = 8/g' ~/.config/hypr/hyprland.conf
 sed -i 's/rounding = [0-9]\+/rounding = 6/g' ~/.config/hypr/hyprland.conf
-sed -i 's/size = [0-9]\+/size = 2/g' ~/.config/hypr/hyprland.conf
-sed -i 's/passes = [0-9]\+/passes = 5/g' ~/.config/hypr/hyprland.conf
+sed -i 's/size = [0-999]\+/size = 2/g' ~/.config/hypr/hyprland.conf
+sed -i 's/passes = [0-999]\+/passes = 5/g' ~/.config/hypr/hyprland.conf
 sed -i 's/col.active_border = rgba([0-9A-F]\{8\})/col.active_border = rgba(FBAE23FF)/g' ~/.config/hypr/hyprland.conf
 sed -i 's/col.inactive_border = rgba([0-9A-F]\{8\})/col.inactive_border = rgba(FBAE2380)/g' ~/.config/hypr/hyprland.conf
 sed -i 's/border_size = [0-80]\+/border_size = 2/g' ~/.config/hypr/hyprland.conf
@@ -33,11 +33,24 @@ sed -i '/#workspaces button {/,/}/s/color: #[0-9a-fA-F]\{6\};/color: #FBB532;/g'
 pkill waybar
 waybar &
 #--------------------------------------------------------------------------------------------------------------------#
+#------------------------------------------CAVA------------------------------------------------------------------#
+sed -i "s/gradient_color_1 = '#[a-fA-F0-9]\{6\}'/gradient_color_1 = '#FBAE23'/g" ~/.config/cava/config
+sed -i "s/gradient_color_2 = '#[a-fA-F0-9]\{6\}'/gradient_color_2 = '#F99F1F'/g" ~/.config/cava/config
+sed -i "s/gradient_color_3 = '#[a-fA-F0-9]\{6\}'/gradient_color_3 = '#F88F1B'/g" ~/.config/cava/config
+sed -i "s/gradient_color_4 = '#[a-fA-F0-9]\{6\}'/gradient_color_4 = '#F78017'/g" ~/.config/cava/config
+sed -i "s/gradient_color_5 = '#[a-fA-F0-9]\{6\}'/gradient_color_5 = '#F67013'/g" ~/.config/cava/config
+sed -i "s/gradient_color_6 = '#[a-fA-F0-9]\{6\}'/gradient_color_6 = '#F5600F'/g" ~/.config/cava/config
+sed -i "s/gradient_color_7 = '#[a-fA-F0-9]\{6\}'/gradient_color_7 = '#F4500B'/g" ~/.config/cava/config
+sed -i "s/gradient_color_8 = '#[a-fA-F0-9]\{6\}'/gradient_color_8 = '#F34007'/g" ~/.config/cava/config
+sed -i "s/gradient_color_9 = '#[a-fA-F0-9]\{6\}'/gradient_color_9 = '#F23003'/g" ~/.config/cava/config
+sed -i "s/gradient_color_10 = '#[a-fA-F0-9]\{6\}'/gradient_color_10 = '#F12000'/g" ~/.config/cava/config
+pkill -USR1 cava
+#--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------GTK_3------------------------------------------------------------------#
 gsettings set org.gnome.desktop.interface icon-theme "Fluent-orange"
 #--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Wofi------------------------------------------------------------------#
-sed -i "s|background-image: url('$(echo ~)/.Wallpapers/[^']*')|background-image: url('$(echo ~)/.Wallpapers/wallpaperr7.jpg')|g" ~/.config/wofi/style.css
+# sed -i "s|background-image: url('$(echo ~)/.Wallpapers/[^']*')|background-image: url('$(echo ~)/.Wallpapers/wallpaperr7.jpg')|g" ~/.config/wofi/style.css
 sed -i 's/border: 2px solid #[0-9a-fA-F]\{6\};/border: 2px solid #FBAE23;/g' ~/.config/wofi/style.css
 sed -i 's/box-shadow: inset 0 0 14px rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/box-shadow: inset 0 0 14px rgba(251, 174, 35, 0.6);/g' ~/.config/wofi/style.css
 pkill wofi

@@ -6,14 +6,14 @@
 }
 
 #window {
-	/* background-color: --wofi-color0; */
-	/* background-color: rgba(0, 0, 0, 0.3); */
-	background-image: url('/home/ihti/.Wallpapers/wallpaperr4.png');
-	background-size: cover; /* Для того чтобы картинка покрывала весь экран */
-    background-position: center; /* Для центрирования картинки */
-    background-repeat: no-repeat;
-	color: --wofi-color2;
-	border: 2px solid --wofi-color1;
+	 /* background-color: --wofi-color0; */
+	 background-color: rgba(0, 0, 0, 0.1); 
+	/* background-image: url('($(echo ~)/.Wallpapers/wallpaperr7.jpg'); */
+	/* background-size: cover;  */
+    /* background-position: center;  */
+    /* background-repeat: no-repeat; */
+	color: #ffffff;
+	border: 0px solid #FFFFFF;
 	border-radius: 0px;
 }
 
@@ -21,13 +21,13 @@
 
 #outer-box {
 	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.403);
+	background-color: rgba(0, 0, 0, 0.103);
 }
 
 #input {
 	/* background-color: --wofi-color1; */
 	background-color: rgba(0, 0, 0, 0.4);
-	border: 0px solid --wofi-color3;
+	border: 0px solid #FFFFFF;
 	/* border: 10px sodid black; */
 	padding: 8px 12px;
 }
@@ -46,11 +46,11 @@
 }
 
 #text {
-	color: --wofi-color2;
+	color: #ffffff;
 }
 
 #text:selected {
-	color: --wofi-color0;
+	color: #ffffff;
 	/* color: rgba(255, 255, 255, 0.901); */
 	
 }
@@ -62,10 +62,10 @@
 
 #entry:selected {
 	background-color: rgba(0, 0, 0, 0);
-	border: 2px solid #FFFFFF;
+	border: 2px solid #14E0F8;
 	/* background-color: --wofi-color3; */
-	color: --wofi-color0;
-	box-shadow: inset 0 0 14px rgba(255, 255, 255, 0.6);
+	color: #ffffff;
+	box-shadow: inset 0 0 14px rgba(0, 165, 184, 0.6);
 }
 
 #unselected {

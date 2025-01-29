@@ -69,11 +69,11 @@ for i in (seq 5 -1 1)
     sleep 0.7
 end
 cd
-rm -rf ~/mywallpaper
+rm -rf ~/wallpapers
 rm -rf ~/.Wallpapers
 git clone https://github.com/IhTiYaR0/wallpapers
 cd
-mv mywallpaper .Wallpapers
+mv wallpapers .Wallpapers
 cd
 
 figlet -f slant "Finish" | lolcat | sed 's/^/\x1b[32m/' | sed 's/$/\x1b[0m/'

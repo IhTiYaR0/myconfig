@@ -6,10 +6,10 @@
     "layer": "top", 
     "position": "top",
     "mod": "dock",
-   "margin-left": 8,
- "margin-right": 8,
- "margin-top": 4,
- "margin-bottom": -2,
+   "margin-left": 22,
+ "margin-right": 22,
+ "margin-top": 7,
+ "margin-bottom": -6,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -20,11 +20,19 @@
 
 	"modules-left": ["custom/arch","custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
 	"modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd","custom/button"],
 
 
 
 
+
+"custom/button": {
+    "exec": "echo 'Button is working!'",
+    "format": "",  
+    "on-click": "~/.config/waybar/script/themes.sh",
+    "tooltip": "Switch Themes",
+    "interval": 0
+},
 	"custom/arch":{
 		"format": "",
         "tooltip": "Arch Linux",
@@ -319,7 +327,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M %p}",
+        "format": "{:%I:%M}",
         "rotate": 0,
        "on-click": "/usr/local/bin/ags -t ActivityCenter",
         "tooltip-format": "<tt>{calendar}</tt>",

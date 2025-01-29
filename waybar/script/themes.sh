@@ -1,0 +1,1 @@
+~/.config/hypr/Themes/themes_menu.sh

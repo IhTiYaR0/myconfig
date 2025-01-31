@@ -114,3 +114,10 @@ source install.sh
 
 ---
 
+### Instructions ⚙️
+
+| Команда | Описание |
+| ------- | -------- |
+| `Super` + `Q`    | `Kitty` |
+| `cd`    |  |
+| `pwd`   |  |

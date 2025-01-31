@@ -21,7 +21,6 @@ python ~/mypython/main.py
 rm -rf mypython
 
 
-figlet -f slant "Cloning a Config" | lolcat | sed 's/^/\x1b[32m/' | sed 's/$/\x1b[0m/'
 for i in (seq 5 -1 1)
     echo -n "..$i"
     sleep 0.7

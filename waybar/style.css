@@ -14,13 +14,13 @@
 
 window#waybar {
     
-     background: rgba(0, 0, 0, 0.6);
+     background: rgba(0, 17, 27, 1.0);
          
-  /*  border-radius: 6px; */
- /*  border: 2px solid #FFFFFF; */
-/* border: 2px solid #FFFFFF; */
- border: 2px solid #FFFFFF;
- border-radius: 6px;
+  /*  border-radius: 4px; */
+ /*  border: 3px solid #0E5788; */
+/* border: 3px solid #0E5788; */
+ border: 3px solid #0E5788;
+ border-radius: 4px;
 }
 
 
@@ -68,7 +68,7 @@ tooltip {
 
 #workspaces button {
 background: rgba(255, 255, 255, 0);
-  color: #FFFFFF;
+  color: #0E5788;
 
     /*color: #ffffFFFFFFff;*/
     box-shadow: none;

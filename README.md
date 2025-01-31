@@ -1,7 +1,7 @@
 ![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
 
 <h1 align="center" style="font-size: 70px; font-weight: bold;">
-  🕊️ IHTI - Hypr Config 1.2 🕊️
+  🕊️ IHTI - Hypr Config 1.4 🕊️
 </h1>
 
 <p align="center">
@@ -114,10 +114,23 @@ source install.sh
 
 ---
 
-### Instructions ⚙️
+### Instructions Binds ⚙️
 
-| Команда | Описание |
+| Command | Function |
 | ------- | -------- |
-| `Super` + `Q`    | `Kitty` |
-| `cd`    |  |
-| `pwd`   |  |
+| `Super` + `Q` | `Kitty` |
+| `Super` + `A` | `Killactive` |
+| `Super` + `S` | `Thunar` |
+| `Super` + `B` | `Firefox` |
+| `Super` + `D` | `Wofi` |
+| `Super` + `T` | `Themes-Menu` |
+| `Super` + `F` | `Fullscreen` |
+| `Super` + `Z` | `Togglefloating` |
+| `Super` + `right` | `workspace, +1` |
+| `Super` + `left` | `workspace, -1` |
+| `Super` + `F10` | `hyprlock` |
+| `Super` + `F12` | `hyprctl exit` |
+| `Super` + `C` | `Vs Code` |
+| `Super` + `M` | `Spotify` |
+
+

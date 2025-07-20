@@ -78,6 +78,7 @@
 ```bash
 git clone https://github.com/IhTiYaR0/myconfig.git
 cd myconfig
+bash installpkg.sh
 chmod +x install.sh
 source install.sh
 ```

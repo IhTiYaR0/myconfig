@@ -1,12 +1,12 @@
 ![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
 
 <h1 align="center" style="font-size: 70px; font-weight: bold;">
-  🕊️ IHTI - Hypr Config 1.4 🕊️
+  🕊️ IHTI - Hypr Config 1.5 🕊️
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LAST%20COMMIT-January%202025-purple?style=for-the-badge&color=green" alt="Last Commit" />
-  <img src="https://img.shields.io/badge/REPO%20SIZE-1.7%20MiB-gradient?style=for-the-badge&color=ff5733" alt="Repo Size" />
+  <img src="https://img.shields.io/badge/LAST%20COMMIT-July%202025-purple?style=for-the-badge&color=green" alt="Last Commit" />
+  <img src="https://img.shields.io/badge/REPO%20SIZE-540%20Kib-gradient?style=for-the-badge&color=ff5733" alt="Repo Size" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 <div align="center">
 
-### [ 🌪️ Wind ]
+### [ 🌪️ Fog ]
 <table>
 <tr>
 <td><img src="https://i.imgur.com/na5EKcc.png" alt="Wind 1" style="border: 3px solid #14E0F8; border-radius: 8px;"></td>
@@ -71,37 +71,6 @@
 
 ---
 
-## ⚠️ **Important Information**
-
-> To use this configuration, make sure your shell is set to <b>Fish</b>. Otherwise, it will not work correctly.
-
-
-## 🐟 How to set Fish as your default shell
-1. **Install Fish**  
-   ```bash
-   sudo pacman -S fish
-   ```
-2. **Replace your shell with Fish**
-    ```bash
-    chsh
-    ```
-    Enter your password, then:
-    ```bash
-    /bin/fish
-    ```
-3. You're all set! 🎉
-
----
-
-![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=Linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=ArchLinux&logoColor=white" alt="Arch Linux" />
-  <img src="https://img.shields.io/badge/Hyprland-7E42F4?style=for-the-badge&logo=hyprland" alt="Hyprland" />
-</p>
-
  <h3 style="font-size: 26px; font-weight: bold;">
  📥 Installation Instructions</h3>
 
@@ -109,6 +78,7 @@
 ```bash
 git clone https://github.com/IhTiYaR0/myconfig.git
 cd myconfig
+chmod +x install.sh
 source install.sh
 ```
 
@@ -130,7 +100,3 @@ source install.sh
 | `Super` + `left` | `workspace, -1` |
 | `Super` + `F10` | `hyprlock` |
 | `Super` + `F12` | `hyprctl exit` |
-| `Super` + `C` | `Vs Code` |
-| `Super` + `M` | `Spotify` |
-
-

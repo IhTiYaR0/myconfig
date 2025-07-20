@@ -6,10 +6,10 @@
     "layer": "top", 
     "position": "top",
     "mod": "dock",
-   "margin-left": 30,
- "margin-right": 30,
- "margin-top": 8,
- "margin-bottom": -4,
+   "margin-left": 8,
+ "margin-right": 8,
+ "margin-top": 4,
+ "margin-bottom": -2,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -20,7 +20,7 @@
 
 	"modules-left": ["custom/arch","custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
 	"modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd","custom/button"],
+	"modules-right": ["custom/padd","custom/l_end","group/expand","custom/notification","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/padd","custom/button"],
 
 
 

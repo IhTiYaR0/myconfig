@@ -1,4 +1,7 @@
- #------------------------------------------Hyprland------------------------------------------------------------------#
+#------------------------------------------Swww------------------------------------------------------------------#
+swww img --resize crop --transition-type grow --transition-step 40 --transition-fps 60 --transition-pos top-right ~/.Wallpapers/wallpaperr4.png
+#--------------------------------------------------------------------------------------------------------------------#
+#------------------------------------------Hyprland------------------------------------------------------------------#
 sed -i 's/gaps_out = [0-80]\+/gaps_out = 8/g' ~/.config/hypr/hyprland.conf
 sed -i 's/gaps_in = [0-80]\+/gaps_in = 6/g' ~/.config/hypr/hyprland.conf
 sed -i 's/rounding = [0-9]\+/rounding = 6/g' ~/.config/hypr/hyprland.conf
@@ -17,9 +20,6 @@ sed -i 's/set_color "#[a-fA-F0-9]\{6\}"/set_color "#38D100"/g' ~/.config/fish/co
 #--------------------------------------------------------------------------------------------------------------------#
 sed -i 's/background #[0-9a-fA-F]\{6\}/background #000000/g' ~/.config/kitty/kitty.conf && kitty @ set-colors --reload
 sed -i 's/background_opacity 0\.[0-9]/background_opacity 0.6/' ~/.config/kitty/kitty.conf && kitty @ set-colors --reload
-
-sed -i 's/"workbench.colorTheme": "[^"]*"/"workbench.colorTheme": "One Monokai"/g' ~/.config/Code/User/settings.json
-sed -i 's/"workbench.iconTheme": "[^"]*"/"workbench.iconTheme": "simple-icons"/g' ~/.config/Code/User/settings.json
 #------------------------------------------Waybar------------------------------------------------------------------#
 # sed -i '/#custom-arch {/,/}/s/color: #[0-9a-fA-F]\{6\};/color: #ffffff;/g' ~/.config/waybar/style.css
 sed -i '/window#waybar {/,/}/ s/background: rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/background: rgba(0, 0, 0, 0.6);/' ~/.config/waybar/style.css
@@ -58,8 +58,5 @@ sed -i 's/border: 2px solid #[0-9a-fA-F]\{6\};/border: 2px solid #FFFFFF;/g' ~/.
 sed -i 's/box-shadow: inset 0 0 14px rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/box-shadow: inset 0 0 14px rgba(255, 255, 255, 0.6);/g' ~/.config/wofi/style.css
 pkill wofi
 #--------------------------------------------------------------------------------------------------------------------#
-#------------------------------------------Swaybg------------------------------------------------------------------#
-# pkill swaybg
-swaybg -i ~/.Wallpapers/wallpaperr4.png 
-#--------------------------------------------------------------------------------------------------------------------#
+
 

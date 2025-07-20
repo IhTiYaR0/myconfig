@@ -1,0 +1,11 @@
+crunch
+gray-git
+hyprdim
+hyprnome
+hyprshot-git
+tty-clock
+waybar-cava
+wlogout
+xf86-video-vmware
+swaync
+yay

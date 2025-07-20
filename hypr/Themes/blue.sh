@@ -1,3 +1,6 @@
+#------------------------------------------Swww------------------------------------------------------------------#
+swww img --resize crop --transition-type grow --transition-step 40 --transition-fps 60 --transition-pos top-right ~/.Wallpapers/blue.jpg
+#--------------------------------------------------------------------------------------------------------------------#
 #------------------------------------------Hyprland------------------------------------------------------------------#
 sed -i 's/gaps_out = [0-80]\+/gaps_out = 22/g' ~/.config/hypr/hyprland.conf
 sed -i 's/gaps_in = [0-80]\+/gaps_in = 10/g' ~/.config/hypr/hyprland.conf
@@ -17,9 +20,6 @@ sed -i 's/set_color "#[a-fA-F0-9]\{6\}"/set_color "#14E0F8"/g' ~/.config/fish/co
 #--------------------------------------------------------------------------------------------------------------------#
 sed -i 's/background #[0-9a-fA-F]\{6\}/background #000212/g' ~/.config/kitty/kitty.conf 
 sed -i 's/background_opacity 0\.[0-9]/background_opacity 0.5/' ~/.config/kitty/kitty.conf && kitty @ set-colors --reload
-
-sed -i 's/"workbench.colorTheme": "[^"]*"/"workbench.colorTheme": "Night Owl"/g' ~/.config/Code/User/settings.json
-sed -i 's/"workbench.iconTheme": "[^"]*"/"workbench.iconTheme": "icons"/g' ~/.config/Code/User/settings.json
 #------------------------------------------Waybar------------------------------------------------------------------#
 # sed -i '/#custom-arch {/,/}/s/color: #[0-9a-fA-F]\{6\};/color: #FBB532;/g' ~/.config/waybar/style.css
 sed -i '/window#waybar {/,/}/ s/background: rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/background: rgba(0, 28, 31, 0.4);/' ~/.config/waybar/style.css
@@ -55,8 +55,4 @@ sed -i 's/border: 2px solid #[0-9a-fA-F]\{6\};/border: 2px solid #14E0F8;/g' ~/.
 sed -i 's/box-shadow: inset 0 0 14px rgba([0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}, [0-9]\{1,3\}\.[0-9]\{1,3\});/box-shadow: inset 0 0 14px rgba(0, 165, 184, 0.6);/g' ~/.config/wofi/style.css
 pkill wofi
 #--------------------------------------------------------------------------------------------------------------------#
-#------------------------------------------Swaybg------------------------------------------------------------------#
-# pkill swaybg
-swaybg -i ~/.Wallpapers/blue.jpg
-#--------------------------------------------------------------------------------------------------------------------#
-# exec fish
+

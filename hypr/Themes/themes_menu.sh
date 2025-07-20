@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Список тем для выбора
-THEMES="<span font='Arial 20' color='#FFFFFF'><b>Random 🎲</b></span>\n<span font='Arial 20' color='#68f26d'><b>🌿 Default</b></span>\n<span font='Arial 20' color='#FFFF00'><b>⚡ Lightning</b></span>\n<span font='Arial 20' color='#00e5ff'><b>🌪️ Wind</b></span>\n<span font='Arial 20' color='#117DC3'><b>🌃 Night</b></span>"
+THEMES="<span font='Arial 20' color='#FFFFFF'><b>Random 🎲</b></span>\n<span font='Arial 20' color='#68f26d'><b>🌿 Default</b></span>\n<span font='Arial 20' color='#FFFF00'><b>⚡ Lightning</b></span>\n<span font='Arial 20' color='#00e5ff'><b>🌪️ Fog</b></span>\n<span font='Arial 20' color='#117DC3'><b>🌃 Night</b></span>"
 
 # Выбор темы через wofi
 CHOICE=$(echo -e "$THEMES" | wofi --dmenu --p "Выберите тему:")
@@ -27,7 +27,7 @@ case "$CHOICE" in
   "<span font='Arial 20' color='#FFFF00'><b>⚡ Lightning</b></span>")
     ~/.config/hypr/Themes/Yellow.sh
     ;;
-  "<span font='Arial 20' color='#00e5ff'><b>🌪️ Wind</b></span>")
+  "<span font='Arial 20' color='#00e5ff'><b>🌪️ Fog</b></span>")
     ~/.config/hypr/Themes/blue.sh
     ;;
     "<span font='Arial 20' color='#117DC3'><b>🌃 Night</b></span>")

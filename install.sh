@@ -44,6 +44,8 @@ cp -r wofi ~/.config/
 rm -rf ~/myconfig
 sudo rm -rf ~/.config/cava
 cp -r cava ~/.config/
+sudo rm -rf ~/.config/neofetch
+cp -r neofetch ~/.config/
 
 echo "Install GTK-themes"
 for i in (seq 5 -1 1)
